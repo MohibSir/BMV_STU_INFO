@@ -43,6 +43,6 @@ function searchData() {
             <button onclick="window.print()">Print</button>
         `;
     } else {
-        resultDiv.innerHTML = '<p>Student not found.</p>';
+        resultDiv.innerHTML = '<p style="color: red; font-weight: bold;">Check your Student Id.</p>';
     }
 }
